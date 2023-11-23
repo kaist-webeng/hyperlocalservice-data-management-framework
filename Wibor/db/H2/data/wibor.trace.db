@@ -1,0 +1,12 @@
+2023-11-23 10:48:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select u1_0.id,u1_0.authenticated_date,u1_0.created_at,u1_0.email,u1_0.is_authenticated,u1_0.name from [*]user u1_0 where u1_0.id=?"; expected "identifier"; SQL statement:
+select u1_0.id,u1_0.authenticated_date,u1_0.created_at,u1_0.email,u1_0.is_authenticated,u1_0.name from user u1_0 where u1_0.id=? [42001-214]
+2023-11-23 11:05:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.authenticated_date,u1_0.created_at,u1_0.email,u1_0.is_authenticated,u1_0.name from user u1_0 where u1_0.id=? [42104-214]
+2023-11-23 11:33:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POST" not found (this database is empty); SQL statement:
+select p1_0.id,p1_0.content,p1_0.created_at,p1_0.latitude,p1_0.longitude,p1_0.title,p1_0.user_id from post p1_0 [42104-214]
+2023-11-23 11:33:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.authenticated_date,u1_0.created_at,u1_0.email,u1_0.is_authenticated,u1_0.name from user u1_0 where u1_0.id=? [42104-214]

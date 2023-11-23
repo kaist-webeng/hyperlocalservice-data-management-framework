@@ -1,0 +1,15 @@
+2023-11-23 10:02:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table registry (\000a        id bigint not null auto_increment,\000a        db_id varchar(255) not null,\000a        db_password varchar(255) not null,\000a        db_url varchar(255) not null,\000a        db_username varchar(255) not null,\000a        entity varchar(255) not null,\000a        location_code varchar(255) not null,\000a        primary key (id)\000a    ) engine[*]=InnoDB"; expected "identifier"; SQL statement:
+
+    create table registry (
+        id bigint not null auto_increment,
+        db_id varchar(255) not null,
+        db_password varchar(255) not null,
+        db_url varchar(255) not null,
+        db_username varchar(255) not null,
+        entity varchar(255) not null,
+        location_code varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB [42001-214]
+2023-11-23 10:34:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]

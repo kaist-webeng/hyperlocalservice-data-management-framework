@@ -1,0 +1,2 @@
+Insert into user (name, is_authenticated, email) values ('username', false, 'test@test.com');
+Insert into post (user_id, title, content, latitude, longitude) values (1, '제목', '내용을 입력하세요.', 127.3845475, 36.3504119);

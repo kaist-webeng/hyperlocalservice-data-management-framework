@@ -1,0 +1,1 @@
+Insert into registry (entity, location_code, DB_url, DB_username, DB_password, DB_id) values ('post', 'A', 'jdbc:h2:file:./db/H2/data/registry', 'wibor', '1234', 'wibor');
